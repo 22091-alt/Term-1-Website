@@ -43,7 +43,7 @@ a{
 .homepics{
     display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 638px;
     height: 100%;
     background-color: cornflowerblue;
     border: 10px solid cornflowerblue;
