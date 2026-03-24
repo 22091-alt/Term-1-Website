@@ -41,13 +41,7 @@ a{
     justify-content: space-evenly;
 }
 .homepics{
-    display: flex;
-    flex-wrap: wrap;
-    width: 638px;
-    height: 100%;
-    background-color: cornflowerblue;
-    border: 10px solid cornflowerblue;
-    border-radius: 10px;
+    position: relative;
 }
 .links {
     display: flex;
@@ -70,11 +64,25 @@ a{
     flex-wrap: wrap;
 }
 .pics{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    border: black solid 3px;
+    height: 170px;
+    background-color: cornflowerblue;
+    padding: 1em;
     
+}
+.button{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.carousel{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
 }
 .image{
     width: 200px;
