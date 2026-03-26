@@ -4,7 +4,21 @@ document.querySelectorAll(".carousel").forEach(carousel => {
         return '<span class="clicks"></span>';
     });
 
-    carousel.insertAdjacentHTML(beforeend, '<div class="button">  ');
+    carousel.insertAdjacentHTML("beforeend", `
+    <div class="button">
+         ${clicksHtml.join("")}
+    </div>
+`);
 
-    console.log(clicksHtml);
+    const clicks =  carousel.querySelectorAll(".clicks");
+
+    clicks.forEach((button, i) => {
+    
+        button.addEventListener("click", () => {
+            console.log(`You clicked button number ${i}`);
+            
+            items.forEach(item => item.classList.remove("item-selected"));
+       });
+    
+    });
 });
