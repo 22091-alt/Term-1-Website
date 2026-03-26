@@ -13,6 +13,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:black;
 }
+
 .bar{
     display: flex;
     background-color: cornflowerblue;
@@ -22,6 +23,7 @@
     align-items: center;
     color: black;
 }
+
 .nav{
     display: flex;
     justify-content: space-evenly;
@@ -30,19 +32,20 @@
     align-items: center;
     color: black;
 }
+
 body{
     background-color:lightskyblue ;
 }
+
 a{
     color: black;
 }
+
 .home{
     display: flex;
     justify-content: space-evenly;
 }
-.homepics{
-    position: relative;
-}
+
 .links {
     display: flex;
     height: 100%;
@@ -53,6 +56,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .info{
     display: flex;
     justify-content: center;
@@ -63,12 +67,23 @@ a{
     border-radius: 10px;
     flex-wrap: wrap;
 }
-.pics{
-    height: 170px;
+
+.carousel{
+    position: relative;
+    height: 200px;
+}
+
+.items{
+    height: 200px;
     background-color: cornflowerblue;
     padding: 1em;
-    
+    display: none;
 }
+
+.items-selected{
+    display: block;
+}
+
 .button{
     width: 100%;
     padding: 20px 0;
@@ -77,13 +92,21 @@ a{
     left: 0;
     text-align: center;
 }
-.carousel{
+
+.click{
     width: 10px;
     height: 10px;
     display: inline-block;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
+    margin: 0, 5px;
+    cursor: pointer;
 }
+
+.click-selected{
+    background: rgba(255, 255, 255, 0.5);
+}
+
 .image{
     width: 200px;
 }
