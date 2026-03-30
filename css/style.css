@@ -68,46 +68,12 @@ a{
     flex-wrap: wrap;
 }
 
-.carousel {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    background: #eee;
-}
-
-.items {
-    display: none;
-    width: 100%;
-    height: 100%;
-    background-color: cornflowerblue;
+.carousel{
     padding: 20px;
-    color: white;
-}
-
-.items-selected {
-    display: block;
-}
-
-.button {
-    position: absolute;
-    bottom: 10px;
     width: 100%;
-    text-align: center;
-    z-index: 5;
-}
-
-.click {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 0 5px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.4);
-    cursor: pointer;
-}
-
-.click-selected {
-    background-color: white !important;
+    height: 400px;
+    background-color: aliceblue;
+    border: 2px solid black;    
 }
 
 .image{
