@@ -68,43 +68,46 @@ a{
     flex-wrap: wrap;
 }
 
-.carousel{
+.carousel {
     position: relative;
+    width: 100%;
     height: 200px;
+    background: #eee;
 }
 
-.items{
-    height: 200px;
-    background-color: cornflowerblue;
-    padding: 1em;
+.items {
     display: none;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    padding: 20px;
+    color: white;
 }
 
-.items-selected{
+.items-selected {
     display: block;
 }
 
-.button{
-    width: 100%;
-    padding: 20px 0;
+.button {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 10px;
+    width: 100%;
     text-align: center;
+    z-index: 5;
 }
 
-.click{
-    width: 10px;
-    height: 10px;
+.click {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.2);
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
     border-radius: 50%;
-    margin: 0, 5px;
+    background-color: rgba(255, 255, 255, 0.4);
     cursor: pointer;
 }
 
-.click-selected{
-    background: rgba(255, 255, 255, 0.5);
+.click-selected {
+    background-color: white !important;
 }
 
 .image{
