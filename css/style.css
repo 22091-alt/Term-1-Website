@@ -75,6 +75,33 @@ a{
     background-color: aliceblue;
     border: 2px solid black;    
 }
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.pics{
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.pics-slide{
+    display:inline-block;
+    animation: 10s slide infinite linear;
+}
+
+.pics-slide img{
+    height: 350px;
+    margin: 0 ;
+}
+
+.pics :hover  .pics-slide{
+    animation-play-state: paused;
+}
 
 .image{
     width: 200px;
