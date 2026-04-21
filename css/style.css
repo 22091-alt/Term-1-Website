@@ -46,23 +46,12 @@ a{
     justify-content: space-evenly;
 }
 
-.links {
-    display: flex;
-    height: 100%;
-    background-color: azure;
-    width: 25%;
-    border: 10px solid cornflowerblue;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .info{
     display: flex;
     justify-content: center;
     height: 100%;
     background-color: azure;
-    width: 25%;
+    width: 90%;
     border: 10px solid cornflowerblue;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -71,9 +60,7 @@ a{
 .carousel{
     padding: 20px;
     width: 100%;
-    height: 400px;
-    background-color: aliceblue;
-    border: 2px solid black;    
+    height: 400px;  
 }
 @keyframes slide {
     from {
@@ -91,11 +78,11 @@ a{
 
 .pics-slide{
     display:inline-block;
-    animation: 10s slide infinite linear;
+    animation: 20s slide infinite linear;
 }
 
 .pics-slide img{
-    height: 350px;
+    height: 400px;
     margin: 0 ;
 }
 
