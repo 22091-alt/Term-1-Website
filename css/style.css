@@ -220,10 +220,11 @@ h5{
 .right{
     width: 40%;
     height: 200px;
-    background-color: aqua;
 }
 .left{
     width: 40%;
     height: 200px;
-    background-color: aqua;
+}
+.imgfoot{
+    padding-left: 425px;
 }
