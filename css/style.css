@@ -184,7 +184,7 @@ p{
     justify-content: space-evenly;
     height: 100%;
     background-color: azure;
-    width: 30%;
+    width: 15%;
     border: 10px solid cornflowerblue;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -194,7 +194,7 @@ p{
     justify-content: space-evenly;
     height: 100%;
     background-color: azure;
-    width: 40%;
+    width: 70%;
     border: 10px solid cornflowerblue;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -227,4 +227,7 @@ h5{
 }
 .imgfoot{
     padding-left: 425px;
+}
+ol img{
+    height: 150px;
 }
