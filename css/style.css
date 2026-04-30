@@ -130,10 +130,10 @@ h1{
     display: flex;
     width: 21%;
     background-color: aliceblue;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid black;
     justify-content: center;
-    height: 49%;
+    height: 410px;
     flex-wrap: wrap;
     margin: 20px;
 }
@@ -165,10 +165,10 @@ h1{
     display: flex;
     width: 21%;
     background-color: aliceblue;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid black;
     justify-content: center;
-    height: 49%;
+    height: 410px;
     flex-wrap: wrap;
     margin: 20px;
 }
