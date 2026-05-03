@@ -204,6 +204,7 @@ ol{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
+    background-color: cornflowerblue;
 }
 h4{
     padding: 10px;
@@ -225,6 +226,7 @@ h5{
 }
 .imgfoot{
     padding-left: 425px;
+    margin-top: 10px;
 }
 .trip img{
     height: 150px;
@@ -240,3 +242,4 @@ h5{
 .trip p{
     margin: 10px;
 }
+
