@@ -78,7 +78,7 @@ a{
 
 .pics-slide{
     display:inline-block;
-    animation: 20s slide infinite linear;
+    animation: 30s slide infinite linear;
 }
 
 .pics-slide img{
